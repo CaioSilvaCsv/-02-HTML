@@ -1,0 +1,32 @@
+.textoimage{
+    display: flex;
+    flex-wrap: nowrap;   
+}
+
+#imgyt,#imgif{
+    width: 5rem;
+}
+.textoimage p{
+    margin: 0 0 0 1rem;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    text-decoration: none;
+    
+}
+
+a#nav{
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: .3rem;
+    color: black;
+}
+a#nav:hover{
+    background-color: #293d34;
+    color: aliceblue;
+}
