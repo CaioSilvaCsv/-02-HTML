@@ -30,3 +30,43 @@ a#nav:hover{
     background-color: #293d34;
     color: aliceblue;
 }
+
+#yt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    border: white .1rem solid;
+
+}
+
+#par{
+    background-color: rgb(189, 189, 189);
+}
+
+table tr:hover , #par:hover{
+    background-color: #293d34;
+    color: aliceblue;
+    border: wheat .3rem solid;
+}
+
+#cabecario{
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    height: 1.3rem;
+}
+
+#horario{
+    background-color: #69706d;
+    color: antiquewhite;
+    text-align: center;
+}
+
