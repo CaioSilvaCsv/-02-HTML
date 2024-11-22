@@ -35,16 +35,17 @@ a#nav:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
 }
 
 table{
     width: 100%;
     border-collapse: collapse;
+    text-align: center;
 }
 
 td{
     border: white .1rem solid;
-
 }
 
 #par{
@@ -70,3 +71,43 @@ table tr:hover , #par:hover{
     text-align: center;
 }
 
+.atual{
+    background-color: gold;
+}
+
+.f1{
+    display: flex;
+    justify-content: end;
+}
+.f1:hover{
+    justify-content:center;
+}
+#f1{
+    width: 30%;
+}
+
+.privace{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.lista{
+    display: flex;
+    flex:row;
+    justify-content: space-around;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 40%;    
+}
+
+#enviar{
+    color: whitesmoke;
+    background-color: black;
+    padding: .3rem;
+    width: 6rem;
+    border-radius: .3rem;
+    text-align: center;
+}
